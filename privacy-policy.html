@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Mental Therapy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            padding: 40px;
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 15px;
+        }
+
+        .last-updated {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
+            font-size: 0.95em;
+        }
+
+        h2 {
+            color: #764ba2;
+            font-size: 1.8em;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+            padding-left: 15px;
+        }
+
+        h3 {
+            color: #555;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .disclaimer {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 5px;
+        }
+
+        .disclaimer strong {
+            color: #856404;
+            font-size: 1.1em;
+        }
+
+        .contact-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .contact-info ul {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .contact-info li {
+            padding: 5px 0;
+        }
+
+        .language-toggle {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .language-toggle button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            margin: 0 10px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s ease;
+        }
+
+        .language-toggle button:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .language-toggle button.active {
+            background: #764ba2;
+            font-weight: bold;
+        }
+
+        .content-section {
+            display: none;
+        }
+
+        .content-section.active {
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="language-toggle">
+            <button onclick="showLanguage('en')" id="btn-en" class="active">English</button>
+            <button onclick="showLanguage('zh')" id="btn-zh">繁體中文</button>
+        </div>
+
+        <!-- English Version -->
+        <div id="content-en" class="content-section active">
+            <h1>Privacy Policy for Mental Therapy</h1>
+            <p class="last-updated"><strong>Last updated:</strong> December 30, 2025</p>
+
+            <h2>Introduction</h2>
+            <p>Mental Therapy ("we", "our", or "us") operates the Mental Therapy mobile application (the "App"). This page informs you of our policies regarding the collection, use, and disclosure of personal information when you use our App.</p>
+
+            <h2>Information Collection and Use</h2>
+
+            <h3>Personal Information</h3>
+            <p>We do not collect, store, or share any personally identifiable information from users of our App.</p>
+
+            <h3>Usage Data</h3>
+            <p>The App may collect basic usage statistics to improve user experience, but this data is anonymous and cannot be used to identify individual users.</p>
+
+            <h3>VR Content</h3>
+            <p>All VR therapy sessions and meditation content are stored locally on your device. We do not upload or transmit your usage patterns or session data to our servers.</p>
+
+            <h2>Data Storage</h2>
+            <p>All user data, including:</p>
+            <ul>
+                <li>App preferences</li>
+                <li>Session history</li>
+                <li>Viewing progress</li>
+            </ul>
+            <p>is stored locally on your device and is not transmitted to external servers.</p>
+
+            <h2>Third-Party Services</h2>
+            <p>Our App may use third-party services that have their own Privacy Policies:</p>
+            <ul>
+                <li>Google Play Services (for app distribution)</li>
+                <li>Expo (for app framework)</li>
+            </ul>
+
+            <h2>Children's Privacy</h2>
+            <p>Our App does not specifically target children under the age of 13. We do not knowingly collect personal information from children under 13.</p>
+
+            <div class="disclaimer">
+                <h2>Health Disclaimer</h2>
+                <p><strong>Important:</strong> This App provides VR-based relaxation and meditation experiences for mental wellness. It is NOT a substitute for professional medical advice, diagnosis, or treatment. If you have serious mental health concerns, please consult a qualified healthcare professional.</p>
+            </div>
+
+            <h2>Changes to This Privacy Policy</h2>
+            <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.</p>
+
+            <div class="contact-info">
+                <h2>Contact Us</h2>
+                <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+                <ul>
+                    <li><strong>Email:</strong> [ffrankie906@gmail.com]</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Chinese Version -->
+        <div id="content-zh" class="content-section">
+            <h1>隱私權政策</h1>
+            <p class="last-updated"><strong>最後更新日期：</strong>2025 年 12 月 30 日</p>
+
+            <h2>簡介</h2>
+            <p>Mental Therapy（「我們」、「我們的」）營運 Mental Therapy 行動應用程式（「本應用程式」）。本頁面說明我們在您使用本應用程式時，關於個人資訊的收集、使用和披露政策。</p>
+
+            <h2>資訊收集與使用</h2>
+
+            <h3>個人資訊</h3>
+            <p>我們不會收集、儲存或分享本應用程式使用者的任何個人識別資訊。</p>
+
+            <h3>使用資料</h3>
+            <p>本應用程式可能會收集基本的使用統計資料以改善使用者體驗，但這些資料是匿名的，無法用於識別個別使用者。</p>
+
+            <h3>VR 內容</h3>
+            <p>所有 VR 治療課程和冥想內容都儲存在您的裝置本地。我們不會上傳或傳輸您的使用模式或課程資料到我們的伺服器。</p>
+
+            <h2>資料儲存</h2>
+            <p>所有使用者資料，包括：</p>
+            <ul>
+                <li>應用程式偏好設定</li>
+                <li>課程歷史記錄</li>
+                <li>觀看進度</li>
+            </ul>
+            <p>都儲存在您的裝置本地，不會傳輸到外部伺服器。</p>
+
+            <h2>第三方服務</h2>
+            <p>本應用程式可能使用具有自己隱私權政策的第三方服務：</p>
+            <ul>
+                <li>Google Play Services（用於應用程式發布）</li>
+                <li>Expo（用於應用程式框架）</li>
+            </ul>
+
+            <h2>兒童隱私</h2>
+            <p>本應用程式不特別針對 13 歲以下的兒童。我們不會故意收集 13 歲以下兒童的個人資訊。</p>
+
+            <div class="disclaimer">
+                <h2>健康免責聲明</h2>
+                <p><strong>重要提示：</strong>本應用程式提供基於 VR 的放鬆和冥想體驗，用於心理健康。它<strong>不能替代</strong>專業醫療建議、診斷或治療。如果您有嚴重的心理健康問題，請諮詢合格的醫療專業人員。</p>
+            </div>
+
+            <h2>隱私權政策變更</h2>
+            <p>我們可能會不時更新我們的隱私權政策。我們會在本頁面發布新的隱私權政策並更新「最後更新日期」來通知您任何變更。</p>
+
+            <div class="contact-info">
+                <h2>聯絡我們</h2>
+                <p>如果您對本隱私權政策有任何疑問，請透過以下方式聯絡我們：</p>
+                <ul>
+                    <li><strong>電子郵件：</strong>[ffrankie906@gmail.com]</li>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showLanguage(lang) {
+            // Hide all content sections
+            document.querySelectorAll('.content-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Remove active class from all buttons
+            document.querySelectorAll('.language-toggle button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Show selected language
+            document.getElementById('content-' + lang).classList.add('active');
+            document.getElementById('btn-' + lang).classList.add('active');
+        }
+    </script>
+</body>
+</html>
